@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <meta name="description" content="Personal portfolio showcasing my projects, skills, and experience.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="cursor-glow"></div>
+
+    <nav id="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#background">Background</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Intro / Hero Section -->
+        <section id="hero" class="fade-in">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Salman Arain</span></h1>
+                <h2>Software Engineer & Designer</h2>
+                <p>My aim to craft beautiful, dynamic, and performant web applications that solve real-world problems
+                    and
+                    leave a lasting impression.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="WhatsApp Image 2025-12-20 at 21.26.55_04fb46f1.jpg" alt="Salman Arain"
+                    style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%; z-index: 1; position: relative;">
+                <div class="glass-orb" style="position: absolute; top:0; left:0; width: 100%; height: 100%;"></div>
+            </div>
+        </section>
+
+        <!-- Background Section -->
+        <section id="background" class="fade-in">
+            <h2 class="section-title">Background</h2>
+            <div class="grid-2">
+                <div class="card glass">
+                    <h3>Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>B.E. in Software Engineering</h4>
+                            <p class="timeline-date">University of Quest Nawabshah • 2024 - 2028</p>
+                            <p>Continue Graduation with Honors. Specializing in Human-Computer Interaction and
+                                Artificial
+                                Intelligence.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card glass">
+                    <h3>Certifications</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>AWS Certified Solutions Architect</h4>
+                            <p class="timeline-date">Amazon Web Services • 2025</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Frontend Developer Professional Certificate</h4>
+                            <p class="timeline-date">Meta • 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="fade-in">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline center-timeline">
+                <div class="timeline-item glass">
+                    <h4>Junior Frontend Engineer</h4>
+                    <p class="timeline-date">Quest Nawabshah. • 2024 - Present</p>
+                    <p>Lead the frontend team to build highly scalable SaaS applications. Improved load times by 40% and
+                        implemented a comprehensive design system.</p>
+                </div>
+                <div class="timeline-item glass">
+                    <h4>Web Developer</h4>
+                    <p class="timeline-date">Creative Agency • 2024 - 2028</p>
+                    <p>Designed and developed marketing websites for various clients using React and vanilla web
+                        technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="fade-in">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass">
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript (ES6+)</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Vue.js</span>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3>Backend</h3>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">PostgreSQL</span>
+                        <span class="tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category glass">
+                    <h3>Tools</h3>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="fade-in">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card glass">
+                    <div class="project-img placeholder1"></div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce site featuring a custom cart, Stripe integration, and real-time
+                            inventory tracking.</p>
+                        <p><strong>Role:</strong> Lead Full-Stack Developer</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass">
+                    <div class="project-img placeholder2"></div>
+                    <div class="project-info">
+                        <h3>AI Image Generator</h3>
+                        <p>Utilized deep learning models to generate high-quality images from text prompts with a sleek
+                            user interface.</p>
+                        <p><strong>Role:</strong> Frontend & Integration</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Stable Diffusion</span>
+                            <span class="tag">Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="fade-in">
+            <h2 class="section-title">Achievements</h2>
+            <div class="grid-3">
+                <div class="achievement-card glass">
+                    <div class="icon">🏆</div>
+                    <h4>Hackathon Winner</h4>
+                    <p>1st Place at Global AI Hackathon 2025 for best accessible tech solution.</p>
+                </div>
+                <div class="achievement-card glass">
+                    <div class="icon">⭐</div>
+                    <h4>Intern of the Year</h4>
+                    <p>Awarded at CodeAlpha. for outstanding contributions to the core product.</p>
+                </div>
+                <div class="achievement-card glass">
+                    <div class="icon">🚀</div>
+                    <h4>Open Source Contributor</h4>
+                    <p>Over 2k stars on personal GitHub repositories and contributed to major frontend libraries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="fade-in">
+            <h2 class="section-title">Articles & Blog</h2>
+            <div class="blog-grid">
+                <a href="#" class="blog-link glass">
+                    <h4>Demystifying CSS Grid & Flexbox</h4>
+                    <p>A deep dive into building complex layouts effortlessly.</p>
+                    <span class="read-more">Read Article →</span>
+                </a>
+                <a href="#" class="blog-link glass">
+                    <h4>The Future of Web Animations</h4>
+                    <p>Exploring view transitions and how they impact user experience.</p>
+                    <span class="read-more">Read Article →</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="fade-in">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-card glass">
+                    <p>"Salman Arain is an exceptional engineer. He constantly delivers high-quality code and always
+                        keeps the
+                        user experience in mind. A true asset to any team."</p>
+                    <h5>- Salman Arain, Student at Quest Nawabshah.</h5>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="fade-in">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container glass">
+                <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll
+                    try my best to get back to you!</p>
+                <div class="contact-links">
+                    <a href="mailto:hello@example.com" class="btn primary">Say Hello</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/salman-arain-312028361" target="_blank" title="LinkedIn">LinkedIn</a>
+                    <a href="https://github.com/salmanarain0606" target="_blank" title="GitHub">GitHub</a>
+                    <a href="https://twitter.com/salmanarain" target="_blank" title="Twitter">Twitter</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Salman Arain. Built with <span class="heart">♥</span> and modern web technologies.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
